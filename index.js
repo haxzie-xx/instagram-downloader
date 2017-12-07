@@ -3,6 +3,7 @@ let app = express();
 let Crawler = require('crawler');
 let bodyParser = require('body-parser');
 let insta_video = require('./routes/insta_video');
+let insta_image = require('./routes/insta_image');
 
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({
