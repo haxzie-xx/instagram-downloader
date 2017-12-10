@@ -9,12 +9,16 @@ Crawler to fetch download links for instagram videos and images.
 
 ## API Endpoints
 `/instagram/image`
+
 Type    : GET
+
 Param   : url
 
 
 `/instagram/video`
+
 Type    : GET
+
 Param   : url
 
 
